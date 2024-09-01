@@ -1,1 +1,1 @@
-a library application built with NodeJS and Express
+A library management application built with NodeJS and Express
