@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-library",
+  "version": "1.0.0",
+  "description": "A library management application built with NodeJS and Express",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.9.1"
+  }
+}
