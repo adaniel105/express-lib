@@ -2,7 +2,7 @@
   "name": "nodejs-library",
   "version": "1.0.0",
   "description": "A library management application built with NodeJS and Express",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src/js"
