@@ -1,15 +1,24 @@
 {
-  "name": "nodejs-library",
-  "version": "1.0.0",
-  "description": "A library management application built with NodeJS and Express",
-  "main": "index.js",
+  "name": "locallibrary",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/js"
+    "start": "node ./bin/www",
+    "devstart": "nodemon .bin/www",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.2.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^8.7.1",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
   "devDependencies": {
-    "eslint": "^9.9.1"
+    "eslint": "^9.12.0",
+    "nodemon": "^3.1.7"
   }
 }
