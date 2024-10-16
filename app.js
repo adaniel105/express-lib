@@ -6,8 +6,8 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const catalogRouter = require('./routes/catalog')
-const wiki = require('./routes/wiki')
+const catalogRouter = require('./routes/catalog');
+const wiki = require('./routes/wiki');
 const app = express();
 const mongoose = require("mongoose");
 
